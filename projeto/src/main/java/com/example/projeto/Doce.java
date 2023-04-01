@@ -1,6 +1,6 @@
 package com.example.projeto;
 
-public class Doce implements PadariaDecorator{
+public class Doce implements Padaria {
 
     public String tipoPedido;
 
@@ -13,6 +13,11 @@ public class Doce implements PadariaDecorator{
 
     public String getTipoPedido() {
         return tipoPedido;
+    }
+
+    @Override
+    public String getPedido() {
+        return null;
     }
 
     public String getNomePedido() {

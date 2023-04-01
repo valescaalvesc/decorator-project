@@ -4,6 +4,7 @@ public abstract class PadariaDecorator implements Padaria {
 
     private Padaria padaria;
     public String nomePedido;
+    private String pedido;
 
     public PadariaDecorator(Padaria padaria) {
         this.padaria = padaria;

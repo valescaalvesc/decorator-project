@@ -2,7 +2,7 @@ package com.example.projeto;
 
 public class Cafe extends PadariaDecorator {
 
-    public Cafe(Cafe cafe) {
+    public Cafe(Doce cafe) {
         super(cafe);
     }
 
