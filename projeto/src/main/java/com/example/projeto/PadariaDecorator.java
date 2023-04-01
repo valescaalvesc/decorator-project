@@ -21,7 +21,7 @@ public abstract class PadariaDecorator implements Padaria {
     public abstract String getTipo();
 
     public String getTipoPedido() {
-        return this.padaria.getTipoPedido() + "/" + this.getTipoPedido();
+        return this.padaria.getTipoPedido() + "/" + this.getTipo();
     }
 
     public abstract String getNomePedido();

@@ -17,7 +17,7 @@ public class Doce implements Padaria {
 
     @Override
     public String getPedido() {
-        return null;
+        return "Doce";
     }
 
     public String getNomePedido() {
